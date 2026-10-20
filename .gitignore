@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Environment and local caches
+.astro/
+.env
+.env.*
+!.env.example

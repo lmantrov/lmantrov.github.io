@@ -1,4 +1,14 @@
-# Configuring multiple Postgres Pro instances on Windows
+
+---
+title: Set up multiple Postgres Pro instances on Windows
+description: An excerpt from the Postgres Pro Standard Installation Guide.
+
+sidebar:
+  hidden: true
+
+---
+
+
 
 To set up several Postgres Pro server instances with different data directories:
 
@@ -8,7 +18,7 @@ To set up several Postgres Pro server instances with different data directories:
    The installed binary files are shared by all Postgres Pro instances, so you need to complete this step only once.
 
 2. Select an empty folder that your new Postgres Pro instance will use as the data directory.
-   For example, `C:\Program Files\PostgresPro\12\data2`. Make sure to grant Full Control
+   For example, `C:\Program Files\PostgresPro\12\data2`. Grant Full Control
    permissions for this folder to the current OS user that will own the database files and to
    the user on behalf of which the server is running (`NT AUTHORITY\NetworkService` by default).
 
@@ -24,7 +34,7 @@ To set up several Postgres Pro server instances with different data directories:
    of the original instance, including authentication settings.
 
 4. Modify `postgresql.conf` settings for the new Postgres Pro instance as required.
-   Make sure to specify different ports for your server instances to avoid conflicts.
+   Specify different ports for your server instances to avoid conflicts.
 
 5. Open the command prompt as Administrator and register a new Postgres Pro service
    with a unique name. For example, `postgrespro-data2`:
@@ -40,5 +50,5 @@ To set up several Postgres Pro server instances with different data directories:
    ```
 
 Once the service is started, your Postgres Pro instance is ready to use. If you need
-any additional Postgres Pro extensions, make sure to enable them for the new instance
+any additional Postgres Pro extensions, enable them for the new instance
 as explained in [Installing additional supplied modules](https://postgrespro.com/docs/postgrespro/12/installing-additional-modules).

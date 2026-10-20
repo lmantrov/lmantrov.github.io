@@ -1,4 +1,12 @@
-# jsonpath type
+
+---
+title: jsonpath type
+description: A concept topic example.
+
+sidebar:
+  hidden: true
+
+---
 
 The jsonpath type implements support for the SQL/JSON path language
 in PostgreSQL to effectively query JSON data.
