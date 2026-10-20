@@ -1,0 +1,90 @@
+
+---
+title: Technical writing samples
+description: Selected documentation samples covering database systems, developer tooling, and technical translation.
+---
+
+import { CardGrid, Card, Badge, LinkCard } from '@astrojs/starlight/components';
+
+Explore selected technical writing samples that showcase my writing style.
+
+---
+
+## PostgreSQL documentation
+
+At Postgres Professional, I authored technical documentation for the
+entire company's product line, including enterprise database distributions,
+PostgreSQL extensions, and administration utilities.
+
+<CardGrid>
+  <Card title="Set up multiple Postgres Pro instances">
+    <div style={{ marginBottom: '0.75rem' }}>
+      <Badge text="Task / How-To" variant="note" size="small" />
+    </div>
+
+    An excerpt from Postgres Pro installation guide.
+
+    [Read Sample](/samples/postgres_install_win/)
+  </Card>
+
+  <Card title="The jsonpath data type">
+    <div style={{ marginBottom: '0.75rem' }}>
+      <Badge text="Concept & Reference" variant="success" size="small" />
+      <Badge text="Open source" variant="tip" size="small" />
+    </div>
+
+    Conceptual model and query reference for jsonpath data type committed to PostgreSQL 12.
+
+    [Read Sample](/samples/jsonpath_type/) ·
+    [View Upstream Patch](https://git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=72b6460336e86ad5cafd3426af6013c7d8457367)
+  </Card>
+</CardGrid>
+
+<div style={{ marginTop: '1rem' }}>
+  <LinkCard
+    title="pg_integrity_check utility (PDF)"
+    description="A reference page for pg_integrity_check, a command-line utility for data page checksum verification and corruption detection."
+    href="/assets/pg_integrity_check.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  />
+</div>
+
+---
+
+## Developer tooling & performance analysis (Intel)
+
+At Intel, I authored documentation for performance profiling tools and libraries.
+
+<CardGrid>
+  <Card title="Profile OpenGL frames">
+    <div style={{ marginBottom: '0.75rem' }}>
+      <Badge text="Workflow Guide" variant="note" size="small" />
+    </div>
+
+    An excerpt from Intel Graphics Performance Analyzers docs.
+
+    <a href="/assets/workflow_sample.pdf" target="_blank" rel="noopener noreferrer">Download PDF sample</a>
+  </Card>
+
+  <Card title="Data fitting functions">
+    <div style={{ marginBottom: '0.75rem' }}>
+      <Badge text="Reference" variant="caution" size="small" />
+    </div>
+
+    An excerpt from Intel Math Kernel Library reference docs.
+
+    <a href="/assets/function_reference_sample.pdf" target="_blank" rel="noopener noreferrer">Download PDF sample</a>
+  </Card>
+</CardGrid>
+
+---
+
+## Translated books (RU &rarr; EN)
+
+Technical books translated from Russian into English, published as free, open-access resources for the PostgreSQL community:
+
+| Book title | Author / Publisher | Focus area |
+| :--- | :--- | :--- |
+| <a href="https://edu.postgrespro.com/postgresql_internals-14_en.pdf" target="_blank" rel="noopener noreferrer">PostgreSQL Internals</a> (PDF) | E. Rogov · *Postgres Professional* | Deep dive into the database engine: storage mechanics, transaction isolation, write-ahead logging (WAL), and indexing internals. |
+| <a href="https://edu.postgrespro.ru/introbook_v9_en.pdf" target="_blank" rel="noopener noreferrer">Postgres: The First Experience</a> (PDF) | P. Luzanov, E. Rogov, I. Levshin · *Postgres Professional* | Practical primer covering relational database concepts, SQL extensions, and operational basics. |
