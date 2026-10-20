@@ -30,8 +30,7 @@ Senior Technical Writer specializing in structured documentation for developer t
 - Edited and translated a book on PostgreSQL database internals, leveraging AI capabilities for translation automation and quality assurance.
 
 ### Sigma Technology — Stockholm, Sweden
-**Documentation Specialist (LIA Internship)**
-*September 2025 – November 2025*
+**Documentation Specialist - LIA Internship** *(September 2025 – November 2025)*
 
 - Automated documentation QA for Simplified Technical English (STE) compliance by extending NLP Python scripts with custom rule-based grammar checks, raising detection accuracy from 20% to ~80%.
 
@@ -59,6 +58,7 @@ Progressed from intern to senior technical writer delivering documentation for h
 reference documentation, and UI microcopy.
 
 **Senior Technical Writer** *(April 2014 – December 2016)*
+
 Delivered documentation for game development software for several geo-distributed Scrum teams:
 - Reviewed UI microcopy and error messages for consistency, grammar, and style.
 - Collaborated with customer support to address recurring customer issues in documentation, updating documentation and producing video tutorials for critical workflows.
@@ -68,7 +68,7 @@ Delivered documentation for game development software for several geo-distribute
 - Acted as a team lead to train, mentor, and onboard technical writing interns into projects and ensure
 seamless documentation support for Intel performance libraries: provided training on tools and best
 practices, discussed information architecture and reviewed drafts for new documentation deliverables.
-- Migrated *Intel® Cluster Studio* legacy Word documentation to single-sourced HTML, cutting authoring and maintenance effort by ~50%.
+- Migrated Intel® Cluster Studio legacy Word documentation to single-sourced HTML, cutting authoring and maintenance effort by ~50%.
 
 **Technical Writer Intern** *(October 2007 – August 2009)*
 - Contributed to corporate style guide development; tested new authoring tools and CMS solutions for DITA XML.
