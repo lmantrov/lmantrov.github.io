@@ -5,7 +5,7 @@ description: Professional background, skills, and experience of Liudmila Mantrov
 
 ## Senior Technical Writer
 
-[l.mantrova@gmail.com](mailto:l.mantrova@gmail.com) · [+46 76 225 66 01](tel:+46762256601) · [LinkedIn](https://linkedin.com/in/your-profile) · Stockholm, Sweden (work permit)
+[l.mantrova@gmail.com](mailto:l.mantrova@gmail.com) · [+46 76 225 66 01](tel:+46762256601) · [LinkedIn](https://linkedin.com/in/lmantrov) · Stockholm, Sweden (work permit)
 
 
 Senior Technical Writer specializing in structured documentation for developer tools and database systems. I combine strong cross-team collaboration with hands-on product experience to turn complex content into clear, accurate, user-focused documentation. Managing technical documentation delivery for multiple product lines, I drive efficiency through content reuse, workflow automation, and standardized documentation lifecycle processes.
